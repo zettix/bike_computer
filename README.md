@@ -2,15 +2,14 @@
 Bike Computer Arduino Project.
 ==============================
 Parts:
-Nano
-DS3231 Real Time Clock i2c board.
-OLED i2c board: device 0x3C
-button board.
+
+1. Nano
+2. DS3231 Real Time Clock i2c board.
+3. OLED i2c board: device 0x3C
+4. button board.
 
 Buttons are in D pad and fire button configuration, like an atari joystick.
-The wire map is:
-
-Open up "Examples:?:Button", change around to discover map.
+Input pin to button is mapped as:
 
    [6]
 [5]   [3]   [7]
